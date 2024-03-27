@@ -1,13 +1,13 @@
 namespace lab2api;
 
 abstract class Container : IHazardNotifier {
-    public string number; 
-    protected int weight;
-    protected int height;
-    protected int emptyWeight;
-    protected int depth;
-    protected int maxLoad;
-    protected int currentLoad;
+    public string number;
+    public int weight;
+    public int height;
+    public int emptyWeight;
+    public int depth;
+    public int maxLoad;
+    public int currentLoad;
 
     public Container(string number, int weight, int height, int emptyWeight, int depth, int maxLoad) {
         this.number = number;
